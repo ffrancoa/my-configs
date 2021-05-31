@@ -12,26 +12,6 @@ set mouse=a
 
 inoremap jj <Esc>
 
-" Open always in insert mode
-" au BufRead,BufNewFile * startinsert
-
-" Close Brackets
-" inoremap ( ()<Esc>i
-" inoremap [ []<Esc>i
-" inoremap ' ''<Esc>i
-" inoremap " ""<Esc>i
-
 call plug#begin()
 Plug 'itchyny/lightline.vim'
-Plug 'itchyny/vim-gitbranch'
 call plug#end()
-
-let g:lightline = {
-      \ 'active': {
-      \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
-      \ },
-      \ 'component_function': {
-      \   'gitbranch': 'gitbranch#name'
-      \ },
-      \ }
