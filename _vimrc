@@ -1,6 +1,5 @@
 syntax on
 
-" Basics
 set number
 set ruler
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
@@ -26,3 +25,13 @@ call plug#begin()
 Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
 call plug#end()
+
+let g:lightline = {
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'gitbranch#name'
+      \ },
+      \ }
