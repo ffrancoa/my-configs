@@ -1,47 +1,48 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "window.menuBarVisibility": "toggle",
-    "editor.lineHeight": 22,
-    "editor.letterSpacing": 0.5,
-    // Controls whether the editor should render indent guides
-    "editor.renderIndentGuides": false,
-    "editor.fontFamily": "Cascadia Code",
-    "terminal.integrated.fontFamily": "Cascadia Code",
-    "editor.fontSize": 16,
-    "terminal.integrated.fontSize": 16,
-    "workbench.sideBar.location": "right",
-    "python.languageServer": "Pylance",
+  "workbench.startupEditor": "newUntitledFile",
+  "window.menuBarVisibility": "toggle",
+  "editor.lineHeight": 22,
+  "editor.letterSpacing": 0.5,
+  // Controls whether the editor should render indent guides
+  "editor.renderIndentGuides": false,
+  "editor.fontFamily": "Cascadia Code",
+  "terminal.integrated.fontFamily": "Cascadia Code",
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
+  "workbench.sideBar.location": "right",
+  "python.languageServer": "Pylance",
 
-    "terminal.integrated.fontWeightBold":"normal",
+  "terminal.integrated.fontWeightBold":"normal",
 
-    "window.title": "${appName}",
-    "editor.fontLigatures": true,
-    "breadcrumbs.enabled": false,
-    "explorer.confirmDelete": false,
-    "workbench.editorAssociations": [
-      {
-        "viewType": "jupyter.notebook.ipynb",
-        "filenamePattern": "*.ipynb"
-      }
-    ],
-    "python.pythonPath": "C:\\ProgramData\\Miniconda3\\python.exe",
-    "python.terminal.activateEnvironment": false,
-
-    "r.rpath.windows": "C:\\Program Files\\R\\R-4.1.0\\bin\\r.exe",
-    "r.rterm.windows": "C:\\ProgramData\\Miniconda3\\Scripts\\radian.exe",
-    "r.rterm.option": [
-      "--no-save",
-      "--no-restore",
-      "--r-binary=C:\\Program Files\\R\\R-4.1.0\\bin\\r.exe"
-      ],
-    "r.bracketedPaste": true,
-    "r.lsp.diagnostics": true,
-    "r.lsp.debug": true,
-    "workbench.iconTheme": "Monokai Pro Icons",
-    "workbench.editor.untitled.hint": "hidden",
-    "jupyter.askForKernelRestart": false,
-    "jupyter.alwaysTrustNotebooks": true,
-    "workbench.colorTheme": "Monokai Pro",
-    "files.associations": {
-      "*.json": "jsonc"
+  "window.title": "${appName}",
+  "editor.fontLigatures": true,
+  "breadcrumbs.enabled": false,
+  "explorer.confirmDelete": false,
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
     }
+  ],
+  "python.pythonPath": "C:\\ProgramData\\Miniconda3\\python.exe",
+  "python.terminal.activateEnvironment": false,
+
+  "r.rpath.windows": "C:\\Program Files\\R\\R-4.1.0\\bin\\r.exe",
+  "r.rterm.windows": "C:\\ProgramData\\Miniconda3\\Scripts\\radian.exe",
+  "r.rterm.option": [
+    "--no-save",
+    "--no-restore",
+    "--r-binary=C:\\Program Files\\R\\R-4.1.0\\bin\\r.exe"
+    ],
+  "r.bracketedPaste": true,
+  "r.lsp.diagnostics": true,
+  "r.lsp.debug": true,
+  "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+  "workbench.editor.untitled.hint": "hidden",
+  "jupyter.askForKernelRestart": false,
+  "jupyter.alwaysTrustNotebooks": true,
+  "workbench.colorTheme": "Gruvbox Dark Soft",
+  "files.associations": {
+    "*.json": "jsonc"
+  }
+}
