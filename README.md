@@ -33,7 +33,7 @@ Me motivé a dejar Spyder y pasarme a Miniconda + VS Code luego de leer la guía
 
 ### R
 
-Me inicié con R en VS Code luego de leer la guía de [Varun Guttikonda]([A fresh start for R in VSCode. Setting up Visual Studio Code for R… | by Varun Guttikonda | Analytics Vidhya | Medium](https://medium.com/analytics-vidhya/a-fresh-start-for-r-in-vscode-ec61ed108cf6)).
+Me inicié con R en VS Code luego de leer la guía de [Varun Guttikonda](https://medium.com/analytics-vidhya/a-fresh-start-for-r-in-vscode-ec61ed108cf6).
 
 * [R 4.1](https://cran.r-project.org/bin/windows/base/)
 * [R for VS Code](https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.r)
